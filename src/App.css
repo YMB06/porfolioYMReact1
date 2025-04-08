@@ -1,0 +1,35 @@
+/*
+Porfolio Web
+Youssef Miftah El Baze
+Diciembre 2024
+*/
+
+.btn{
+  background-color: purple;
+color: white;
+transition: all 2s ease;
+
+}
+.btn:hover{
+  background-color: violet;
+}
+.fixed-button {
+  bottom: 70px;
+  right: 20px;
+  transition: all 2s ease;
+}
+.fixed-button:hover {
+  background-color: violet;
+  color: black;
+  transform: scale(1.06) translate(0px, 0px);
+}
+.menu, .footer {
+  background: linear-gradient(90deg, rgba(197, 51, 255, 0.8) 0%, rgba(230, 133, 243, 0.8) 100%);
+}
+body {
+  background-color: rgb(252, 220, 252);
+}
+.contenido {
+
+  min-height: 80vh;
+}
