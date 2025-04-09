@@ -31,15 +31,17 @@ export const Index = () => {
               I.E.S Cura Valera 2022-2024<br />
               <strong>Título obtenido:</strong> Técnico de Sistemas microinformáticos y redes
             </p>
+            <button               className="CV"
+            >
             <a
               title="Mi curriculum"
-              href="../Documents/Curriculum_Youssefmf.pdf"
-              id="CV"
-              className="btn indigo"
+              href="@/Documents/Curriculum_Youssefmf.pdf"
+              className="btn"
               target="_blank"
             >
               Mi CV para descargar
             </a>
+            </button>
             {/* Proyectos */}
             <h3 className="mt-4">
               <b>Proyectos:</b>
@@ -198,7 +200,7 @@ export const Index = () => {
         </section>
         {/* Botón fijo */}
         <button className="fixed-button">
-        <a href="/" className="btn">
+        <a href="/" className='btn'>
           Inicio
         </a>
         </button>

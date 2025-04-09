@@ -20,6 +20,8 @@ function App() {
   }, []);
 
   return (
+    
+    <body className='amon'>
     <div className="container-full flex flex-col min-h-screen">
       <Header />
       <main className="container flex-1 mt-5">
@@ -27,6 +29,7 @@ function App() {
       </main>
       <Footer />
     </div>
+    </body>
   );
 }
 

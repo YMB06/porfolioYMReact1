@@ -61,9 +61,11 @@ export const Form = () => {
         Borrar
       </button>
     </form>
-    <a href="/" className="fixed-button btn">
-      Inicio
-    </a>
+    <button className="fixed-button">
+        <a href="/" className='btn'>
+          Inicio
+        </a>
+        </button>
   </main>  )
 }
 
