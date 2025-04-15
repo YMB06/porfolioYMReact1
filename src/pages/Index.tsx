@@ -31,17 +31,17 @@ export const Index = () => {
               I.E.S Cura Valera 2022-2024<br />
               <strong>Título obtenido:</strong> Técnico de Sistemas microinformáticos y redes
             </p>
-            <button               className="CV"
-            >
-            <a
-              title="Mi curriculum"
-              href="@/Documents/Curriculum_Youssefmf.pdf"
-              className="btn"
-              target="_blank"
-            >
-              Mi CV para descargar
-            </a>
-            </button>
+            <button className="CV">
+  <a
+    title="Mi curriculum"
+    href="/Documents/Curriculum_Youssefmf.pdf"
+    className="btn"
+    target="_blank"
+  >
+    Mi CV para descargar
+  </a>
+</button>
+
             {/* Proyectos */}
             <h3 className="mt-4">
               <b>Proyectos:</b>
