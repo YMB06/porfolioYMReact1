@@ -8,7 +8,7 @@ export const AppRoutes = () => {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/form" element={<Form />} />
+        <Route path="/porfolio/form" element={<Form />} />
     </Routes>
 </BrowserRouter>  )
 }
