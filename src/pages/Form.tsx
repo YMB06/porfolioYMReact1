@@ -1,7 +1,7 @@
 
 export const Form = () => {
   return (
-    <main className="container mt-5 contenido">
+    <main className="container mt-5 contenido formulario">
     <h2 className="text-center">Formulario de Contacto</h2>
     <form className="bg-light p-4 rounded shadow-sm">
       <div className="mb-3">
