@@ -7,7 +7,7 @@ export const Index = () => {
           <aside className="col-md-4 text-center">
             <img
               id="fotoPerfil"
-              src="../images/foto.jpg"
+              src="/images/foto.jpg"
               alt="Foto de perfil"
               className="img-fluid rounded shadow"
               width="300"
