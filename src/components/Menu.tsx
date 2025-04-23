@@ -12,7 +12,7 @@ export const Menu = () => {
   
           <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
-                  <li className="nav-item"><a className="nav-link text-white" href="/form/#formulario" title="Formulario de contacto">Solicitud de contacto</a></li>
+                  <li className="nav-item"><a className="nav-link text-white" href="form" title="Formulario de contacto">Solicitud de contacto</a></li>
                   <li className="nav-item"><a className="nav-link text-white" href="/#TablaIdiomas" title="Idiomas">Idiomas</a></li>
                   <li className="nav-item"><a className="nav-link text-white" href="/#Contactos" title="Los contactos que uso para comunicarme">Contactos</a></li>
                   <li className="nav-item"><a className="nav-link text-white" href="/#displayVideos" title="Galeria con videos">Galeria</a></li>
